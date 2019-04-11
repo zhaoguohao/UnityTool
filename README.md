@@ -9,9 +9,9 @@
     
  
    [作者博客](http://blog.csdn.net/cartzhang/article/details/50474664)
-![](https://avatar.csdn.net/9/5/2/3_cartzhang.jpg "作者头像")
 
 
-![https://avatar.csdn.net/9/5/2/3_cartzhang.jpg](foryou)
+
+![](https://avatar.csdn.net/9/5/2/3_cartzhang.jpg "作者")
 
 
