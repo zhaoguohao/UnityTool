@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ZDebug</name>
+    </assembly>
+    <members>
+        <member name="T:ZDebug">
+            <summary>
+            一个方便管理的Debug输出类(默认打印颜色为黑色)
+            </summary>
+        </member>
+        <member name="F:ZDebug.enable">
+            <summary>
+            是否开启打印Log(正式发布时可选择关闭)
+            </summary>
+        </member>
+        <member name="T:ZDebug.Color">
+            <summary>
+            输出内容的颜色
+            </summary>
+        </member>
+        <member name="F:ZDebug.Color.cyan">
+            <summary>
+            青色
+            </summary>
+        </member>
+        <member name="F:ZDebug.Color.white">
+            <summary>
+            白色
+            </summary>
+        </member>
+        <member name="F:ZDebug.Color.green">
+            <summary>
+            绿色
+            </summary>
+        </member>
+        <member name="F:ZDebug.Color.red">
+            <summary>
+            红色
+            </summary>
+        </member>
+        <member name="F:ZDebug.Color.yellow">
+            <summary>
+            黄色
+            </summary>
+        </member>
+        <member name="F:ZDebug.Color.blue">
+            <summary>
+            蓝色
+            </summary>
+        </member>
+        <member name="F:ZDebug.Color.black">
+            <summary>
+            黑色
+            </summary>
+        </member>
+        <member name="M:ZDebug.Log(System.Object,ZDebug.Color)">
+            <summary>
+            普通输出
+            </summary>
+            <param name="message"></param>
+            <param name="color"></param>
+        </member>
+        <member name="M:ZDebug.LogError(System.Object,ZDebug.Color)">
+            <summary>
+            普通输出(标错log)
+            </summary>
+            <param name="message"></param>
+            <param name="color"></param>
+        </member>
+        <member name="M:ZDebug.LogWarning(System.Object,ZDebug.Color)">
+            <summary>
+            普通输出(警告log)
+            </summary>
+            <param name="message"></param>
+            <param name="color"></param>
+        </member>
+        <member name="M:ZDebug.LogBold(System.Object,ZDebug.Color)">
+            <summary>
+            加粗输出
+            </summary>
+            <param name="message"></param>
+            <param name="color"></param>
+        </member>
+        <member name="M:ZDebug.LogItalic(System.Object,ZDebug.Color)">
+            <summary>
+            斜体输出
+            </summary>
+            <param name="message"></param>
+            <param name="color"></param>
+        </member>
+        <member name="M:ZDebug.LogBoldItalic(System.Object,ZDebug.Color)">
+            <summary>
+            加粗斜体输出
+            </summary>
+            <param name="message"></param>
+            <param name="color"></param>
+        </member>
+        <member name="M:ZDebug.LogTitle(System.Object,System.Int32,ZDebug.Color)">
+            <summary>
+            输出标题栏（形如:======Title======）
+            </summary>
+            <param name="title"></param>
+            <param name="level"></param>
+            <param name="color"></param>
+        </member>
+        <member name="M:ZDebug.LogObject``1(``0,ZDebug.Color)">
+            <summary>
+            输出对象（自定义的）
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="content"></param>
+            <param name="color"></param>
+        </member>
+        <member name="M:ZDebug.LogList``1(System.Collections.Generic.List{``0})">
+            <summary>
+            输出List
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="content"></param>
+        </member>
+        <member name="M:ZDebug.LogArray``1(``0[])">
+            <summary>
+            输出数组
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="content"></param>
+        </member>
+    </members>
+</doc>
