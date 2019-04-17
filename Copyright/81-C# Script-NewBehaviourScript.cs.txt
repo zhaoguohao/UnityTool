@@ -1,0 +1,28 @@
+//====================================== 
+//-FileName: #SCRIPTNAME#.cs
+//-Created: #AuthorName#
+//-CreatTime: #CreateTime#
+//-Email:#AuthorEmail#
+//Description
+//(C)Copyright  2008 - 2018,Ewaves,Inc.
+//- All Right Reserved;
+//====================================== 
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class #SCRIPTNAME# : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        #NOTRIM#
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        #NOTRIM#
+    }
+}
